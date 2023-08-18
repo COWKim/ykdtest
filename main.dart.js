@@ -44721,10 +44721,10 @@ $0(){this.a.d=""},
 $S:0}
 A.aij.prototype={
 $0(){var s=this.b,r=this.a
-if(s===r.w)r.d+="^"
-else if(s===r.y)r.d+="<"
-else if(s===r.z)r.d+=">"
-else if(s===r.x)r.d+="v"},
+if(s===r.w)r.d+="\u2191"
+else if(s===r.y)r.d+="\u2190"
+else if(s===r.z)r.d+="\u2192"
+else if(s===r.x)r.d+="\u2193"},
 $S:0}
 A.ail.prototype={
 $0(){this.a.r=this.b.bm("Int","f6step",2).a2(new A.aik(),t.S)},
