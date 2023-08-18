@@ -44680,7 +44680,7 @@ X(){var s=null,r=t.eO
 return new A.Po(A.bW(),new A.bI(s,r),new A.bI(s,r),new A.bI(s,r),new A.bI(s,r),B.p)}}
 A.Po.prototype={
 aav(a){var s,r=this
-if(a==="<<<<^>^^"){r.jU()
+if(a==="\u2190\u2190\u2190\u2190\u2191\u2192\u2191\u2191"){r.jU()
 s=r.c
 s.toString
 A.dj(s,"2",t.X)}else{s=r.c
