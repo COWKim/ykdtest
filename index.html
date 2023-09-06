@@ -23,19 +23,20 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="escape">
+  <meta name="apple-mobile-web-app-title" content="escape_ex">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>escape</title>
+  <title>escape_ex</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "2674487127";
+    var serviceWorkerVersion = "3060629895";
   </script>
+
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
@@ -54,6 +55,29 @@
         }
       });
     });
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBQUmAP2xtZEge8laOwZsFxR7EFNlh8Ovg",
+      authDomain: "poszer-ddbb5.firebaseapp.com",
+      projectId: "poszer-ddbb5",
+      storageBucket: "poszer-ddbb5.appspot.com",
+      messagingSenderId: "98485275869",
+      appId: "1:98485275869:web:167b27e9059a581b4edf34",
+      measurementId: "G-R8ZGQ1PQHM"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
   </script>
 </body>
 </html>

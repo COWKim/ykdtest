@@ -1,6 +1,6 @@
 {
-    "name": "escape",
-    "short_name": "escape",
+    "name": "escape_ex",
+    "short_name": "escape_ex",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
